@@ -1,0 +1,21 @@
+{
+  "name": "build-task",
+  "version": "1.0.0",
+  "description": "A reference for creating a build task",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "azure-pipelines-task-lib": "^4.12.0"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.6",
+    "@types/node": "^20.12.12",
+    "@types/q": "^1.5.8",
+    "sync-request": "^6.1.0"
+  }
+}
