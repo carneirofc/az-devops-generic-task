@@ -1,0 +1,31 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Microsoft/azure-pipelines-task-lib/master/tasks.schema.json",
+  "id": "b6973514-6536-4d6e-87ba-6a26b7c82864",
+  "name": "az-devops-generic-test-task",
+  "friendlyName": "Task Azure Pipelines Generic Test",
+  "description": "A generic test task for Azure DevOps",
+  "helpMarkDown": "",
+  "category": "Utility",
+  "author": "carneirofc",
+  "version": {
+    "Major": 0,
+    "Minor": 1,
+    "Patch": 0
+  },
+  "instanceNameFormat": "Echo $(samplestring)",
+  "inputs": [
+    {
+      "name": "samplestring",
+      "type": "string",
+      "label": "Sample String",
+      "defaultValue": "",
+      "required": true,
+      "helpMarkDown": "A sample string"
+    }
+  ],
+  "execution": {
+    "Node": {
+      "target": "index.js"
+    }
+  }
+}
