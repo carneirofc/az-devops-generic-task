@@ -27,5 +27,21 @@
     "Node": {
       "target": "index.js"
     }
-  }
+  },
+  "prejobexecution": {
+    "Node": {
+      "target": "src//prejobexecution.js"
+    }
+  },
+  "postjobexecution": {
+    "Node": {
+      "target": "src//postjobexecution.js"
+    }
+  },
+  "outputVariables": [
+    {
+      "name": "exitCode",
+      "description": "Exit code emitted from the execution of specified command"
+    }
+  ]
 }

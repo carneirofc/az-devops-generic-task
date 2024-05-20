@@ -10,6 +10,14 @@ Compiling and testing
 tsc
 ```
 
+Running
+
+We can run using node and pass environment variables prefixed with input
+
+```command
+INPUT_SAMPLESTRING="Human" node ./index.js
+```
+
 ## Links
 
 - https://github.com/microsoft/azure-pipelines-task-lib

@@ -1,6 +1,7 @@
 import tl = require("azure-pipelines-task-lib/task");
 
 async function run() {
+  tl.debug("Starting task execution script");
   try {
     const inputString: string | undefined = tl.getInput("samplestring", true);
     if (inputString == "bad") {
