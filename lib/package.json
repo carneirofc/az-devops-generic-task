@@ -1,11 +1,15 @@
 {
-  "dependencies": {
-    "azure-pipelines-task-lib": "^4.12.0",
-    "lib": "file:../lib"
-  },
+  "name": "lib",
   "scripts": {
-    "build": "tsc",
     "test": "mocha ./tests/_suite.js --reporter xunit --reporter-option output=ResultsFile.xml --verbose"
+  },
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "dependencies": {
+    "azure-pipelines-task-lib": "^4.12.0"
   },
   "devDependencies": {
     "@types/mocha": "^10.0.6",

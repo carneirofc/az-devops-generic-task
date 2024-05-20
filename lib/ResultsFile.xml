@@ -1,0 +1,4 @@
+<testsuite name="Mocha Tests" tests="2" failures="0" errors="0" skipped="0" timestamp="Mon, 20 May 2024 01:24:01 GMT" time="0.001">
+<testcase classname="Commons tests" name="should validate memory" file="/home/carneirofc/__Git__/az-devops-generic-task/lib/tests/_suite.js" time="0"/>
+<testcase classname="Commons tests" name="should validate CPU" file="/home/carneirofc/__Git__/az-devops-generic-task/lib/tests/_suite.js" time="0"/>
+</testsuite>
