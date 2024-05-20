@@ -4,3 +4,4 @@ tests/**/*.log
 src/**/*.js
 tests/**/*.js
 .taskkey
+ResultsFile.xml
