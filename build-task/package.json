@@ -4,7 +4,7 @@
     "lib": "file:../lib"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "node ../scripts/build-lib-and-myself.js ../lib run build && tsc",
     "test": "mocha ./tests/_suite.js --reporter xunit --reporter-option output=ResultsFile.xml --verbose"
   },
   "devDependencies": {

@@ -1,13 +1,14 @@
 {
   "name": "lib",
   "scripts": {
+    "build": "tsc",
     "test": "mocha ./tests/_suite.js --reporter xunit --reporter-option output=ResultsFile.xml --verbose"
   },
   "main": "./src/index.js",
   "types": "./src/index.d.ts",
-  "exports": {
-    ".": "./src/index.js"
-  },
+  "files": [
+    "/src"
+  ],
   "dependencies": {
     "azure-pipelines-task-lib": "^4.12.0"
   },

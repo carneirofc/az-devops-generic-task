@@ -1,3 +1,4 @@
+export * from "./basecommand";
 export function isValidMemory(memory: string): boolean {
   const memoryRegex = /^[0-9]+[KMGTE]i?$/;
   return memoryRegex.test(memory);
